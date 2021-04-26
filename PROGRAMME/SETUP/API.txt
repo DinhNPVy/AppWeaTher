@@ -1,0 +1,11 @@
+/*** Current weather data ***/
+url = 
+https://api.openweathermap.org/data/2.5/weather?q="+data+"&units=metric&appid=09522e7c1b90d4c879371c025ae95996
+
+KEY: 09522e7c1b90d4c879371c025ae95996
+
+/*** The next day ***/
+url = https://api.openweathermap.org/data/2.5/forecast?q="+data+"&units=metric&appid=09522e7c1b90d4c879371c025ae95996
+
+
+KEY: 09522e7c1b90d4c879371c025ae95996

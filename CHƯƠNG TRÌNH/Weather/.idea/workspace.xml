@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_3a" />
+        <device id="pixel_xl" />
+        <target>android-28</target>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e12de92-80aa-4b59-9fdd-7a689abcb914" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/SETUP/API.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/androidTest/java/com/example/weather/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/java/com/example/weather/CustomAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/java/com/example/weather/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/java/com/example/weather/MainActivity2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/java/com/example/weather/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/clouds1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/custom_img_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/hightemperature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/hu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/humidity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/speedometer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/speedometer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/ultraviolet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/uvprotection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/wind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/wind1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/drawable/windmill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/layout/activity_c_weather.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/layout/row_listview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/app/src/test/java/com/example/weather/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PROGRAMME/Weather/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../REPORT/New Microsoft Word Document.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1qpt4rCUM1U5waKzaoJ9Iw6vo4Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_Edited_API_28" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-11T13:23:13.058Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="6PEE6PS4MB7PQGFE" />
+    <property name="android.recentlyUsedThemes" value="Theme.AppCompat.Light&#10;Theme.AppCompat.Light.NoActionBar&#10;Theme.MaterialComponents.Light" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PROGRAMME/Weather" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-945484500">
+      <recent name="com.example.weather" />
+    </key>
+    <key name="android.template.799972857">
+      <recent name="com.example.weather" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ResponseUv" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Weather.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e12de92-80aa-4b59-9fdd-7a689abcb914" name="Default Changelist" comment="" />
+      <created>1617788170441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617788170441</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="130" y="167" key="#PSD" timestamp="1618151912293">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="130" y="167" key="#PSD/0.0.1536.834@0.0.1536.834" timestamp="1618151912293" />
+    <state x="484" y="3" key="#app" timestamp="1619438206035">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="484" y="3" key="#app/0.0.1536.834@0.0.1536.834" timestamp="1619438206035" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619438233843">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1619438233843" />
+    <state x="214" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1618731474830">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="214" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1618731474830" />
+    <state x="139" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618661567232">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="139" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1618661567232" />
+    <state x="93" y="93" width="1350" height="648" key="AVDManager" timestamp="1619097233789">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="AVDManager/0.0.1536.834@0.0.1536.834" timestamp="1619097233789" />
+    <state x="349" y="172" key="AndroidCreateResourceDirectoryDialog" timestamp="1619098092191">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="349" y="172" key="AndroidCreateResourceDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1619098092191" />
+    <state x="67" y="107" key="AndroidCreateResourceFileDialog" timestamp="1618727088759">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="67" y="107" key="AndroidCreateResourceFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1618727088759" />
+    <state x="565" y="163" key="AndroidProcessChooserDialog" timestamp="1619102966632">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="565" y="163" key="AndroidProcessChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1619102966632" />
+    <state x="349" y="122" key="AndroidThemeDialog" timestamp="1619095399340">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="349" y="122" key="AndroidThemeDialog/0.0.1536.834@0.0.1536.834" timestamp="1619095399340" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1619439842012">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1619439842012" />
+    <state width="1491" height="214" key="GridCell.Tab.0.bottom" timestamp="1619103836222">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1619103836222" />
+    <state width="1491" height="214" key="GridCell.Tab.0.center" timestamp="1619103836222">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1619103836222" />
+    <state width="1491" height="214" key="GridCell.Tab.0.left" timestamp="1619103836222">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1619103836222" />
+    <state width="1491" height="214" key="GridCell.Tab.0.right" timestamp="1619103836222">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1619103836222" />
+    <state width="1491" height="207" key="GridCell.Tab.1.bottom" timestamp="1619103082056">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="207" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1619103082056" />
+    <state width="1491" height="207" key="GridCell.Tab.1.center" timestamp="1619103082056">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="207" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1619103082056" />
+    <state width="1491" height="207" key="GridCell.Tab.1.left" timestamp="1619103082056">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="207" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1619103082056" />
+    <state width="1491" height="207" key="GridCell.Tab.1.right" timestamp="1619103082056">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1491" height="207" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1619103082056" />
+    <state x="219" y="201" key="chooseDestDirectoryDialog" timestamp="1617798512371">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="219" y="201" key="chooseDestDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1617798512371" />
+    <state x="471" y="226" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1618146821867">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="471" y="226" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog/0.0.1536.834@0.0.1536.834" timestamp="1618146821867" />
+    <state x="482" y="261" key="edit.logcat.filter.dialog.dimensions" timestamp="1618740131223">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="482" y="261" key="edit.logcat.filter.dialog.dimensions/0.0.1536.834@0.0.1536.834" timestamp="1618740131223" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1618151902502">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1618151902502" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1618151917834">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1618151917834" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/weather/MainActivity2.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/weather/MainActivity2.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/weather/MainActivity2.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
