@@ -20,11 +20,13 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.android.volley.RequestQueue;
 import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -33,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton btnSearch;
     Button  btnchange;
     TextView txt_name, txt_day, text_nhietdo, txt_status,
-    txt_clouds, txt_doam, txt_temperature, txt_tiauv, txt_wind;
+    txt_rise, txt_doam, txt_temperature, txt_tiauv, txt_wind, txt_set, txt_clouds;
     ImageView img_clouds;
     String city = "";
     @Override
@@ -110,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                             JSONArray jsonArrayWeather = jsonObject.getJSONArray("weather");
 
                             JSONObject jsonObjectWeather = jsonArrayWeather.getJSONObject(0);
-                            String status = jsonObjectWeather.getString("main");
+                            String status = jsonObjectWeather.getString("description");
                             String icon = jsonObjectWeather.getString("icon");
 
                             Picasso.with(MainActivity.this).load("https://openweathermap.org/img/wn/"+icon+".png").into(img_clouds);
@@ -127,34 +129,70 @@ public class MainActivity extends AppCompatActivity {
                             text_nhietdo.setText(Temp+"°C");
                             txt_temperature.setText(Temp+"°C");
                             txt_doam.setText(doam+"%");
+
                                 /// Wind ///
                             JSONObject jsonObjectWind = jsonObject.getJSONObject("wind");
                             String gio = jsonObjectWind.getString("speed");
                             txt_wind.setText(gio+"m/s");
+
                                 /// Clouds ///
                             JSONObject jsonObjectClouds = jsonObject.getJSONObject("clouds");
                             String may = jsonObjectClouds.getString("all");
                             txt_clouds.setText(may+"%");
 
-                            /*JSONObject jsonObjectSys = jsonObject.getJSONObject("sys");
-                            String country = jsonObjectSys.getString("country"); */
+                                /// RISE, SET ///
+                            JSONObject jsonObjectSys = jsonObject.getJSONObject("sys");
+                            //String country = jsonObjectSys.getString("country");
+                            String sun_rise = jsonObjectSys.getString("sunrise");
+                            String sun_set = jsonObjectSys.getString("sunset");
+                            txt_rise.setText(sun_rise);
+                            txt_set.setText(sun_set);
+                            long rise = Long.valueOf(sun_rise);
+                            // chuyển s -> ms
+                            Date _rise = new Date(rise*1000L);
+
+                            // chèn giá trị format
+
+                            SimpleDateFormat _simpleDateFormat = new SimpleDateFormat("HH:mm");
+
+                            String sunrise = _simpleDateFormat.format(_rise);
+
+                            txt_rise.setText(sunrise+" am");
+
+                            long set = Long.valueOf(sun_set);
+                            // chuyển s -> ms
+                            Date _set = new Date(set*1000L);
+
+                            // chèn giá trị format
+
+                            SimpleDateFormat _simpleDate_Format = new SimpleDateFormat("HH:mm");
+
+                            String sunset = _simpleDate_Format.format(_set);
+
+                            txt_set.setText(sunset+" pm");
+
+
                             // tia uv
                             JSONObject jsonObjectCoord = jsonObject.getJSONObject("coord");
                             String _lon = jsonObjectCoord.getString("lon");
                             String _lat = jsonObjectCoord.getString("lat");
 
-                            /*String _url = "https://api.openweathermap.org/data/2.5/uvi?lat="+_lat+"&lon="+_lon+"&appid=09522e7c1b90d4c879371c025ae95996";
-
+                            String _url = "https://api.openweathermap.org/data/2.5/onecall?lat="+_lat+"&lon="+_lon+"&exclude=hourly,daily&appid=09522e7c1b90d4c879371c025ae95996";
+                           // String _url = "https://api.openweathermap.org/data/2.5/uvi?lat="+_lat+"&lon="+_lon+"&appid=09522e7c1b90d4c879371c025ae95996";
+                            //txt_tiauv.setText(_url);
                             StringRequest stringRequest = new StringRequest(Request.Method.GET,
                                     _url,
                                     new Response.Listener<String>() {
                                         @Override
                                         public void onResponse(String response) {
-                                            Log.d("result", response);
+                                            //Log.d("result", response);
                                             try {
                                                 JSONObject jsonObject = new JSONObject(response);
-                                                String value = jsonObject.getString("value");
-                                                txt_tiauv.setText(value);
+                                                JSONObject jsonObjectCurrent = jsonObject.getJSONObject("current");
+                                                String tiauv = jsonObjectCurrent.getString("uvi");
+                                                //String wind_speed = jsonObjectCurrent.getString("wind_speed");
+                                                txt_tiauv.setText(tiauv);
+//                                                txt_meter.setText( wind_speed + "m/s");
                                             } catch (JSONException e) {
                                                 e.printStackTrace();
                                             }
@@ -166,7 +204,9 @@ public class MainActivity extends AppCompatActivity {
                                         public void onErrorResponse(VolleyError error) {
 
                                         }
-                                    });*/
+                                    });
+                                    requestQueqe.add(stringRequest);
+
 
 
                         }
@@ -196,11 +236,13 @@ public class MainActivity extends AppCompatActivity {
         txt_day = (TextView)findViewById(R.id.text_day);
         text_nhietdo = (TextView)findViewById(R.id.text_nhietdo);
         txt_status = (TextView)findViewById(R.id.text_status);
-        txt_clouds = (TextView)findViewById(R.id.text_clouds);
+        txt_rise = (TextView)findViewById(R.id.text_rise);
         txt_doam = (TextView)findViewById(R.id.text_doam);
         txt_temperature = (TextView)findViewById(R.id.text_temperature);
         txt_tiauv = (TextView)findViewById(R.id.text_tiauv);
         img_clouds = (ImageView)findViewById(R.id.img_clouds);
         txt_wind = (TextView) findViewById(R.id.text_wind);
+        txt_set = (TextView) findViewById(R.id.text_set);
+        txt_clouds = (TextView) findViewById(R.id.text_clouds);
     }
 }
