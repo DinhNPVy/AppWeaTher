@@ -72,7 +72,7 @@ public class MainActivity2 extends AppCompatActivity {
         listView.setAdapter(customAdapter);
     }
     private void Get7DaysData(String data)
-    {
+    { // chưa fix
         String url = "https://api.openweathermap.org/data/2.5/forecast?q="+data+"&units=metric&appid=09522e7c1b90d4c879371c025ae95996";
         // đọc dữ liệu thư viện Volley
         RequestQueue requestQueue = Volley.newRequestQueue(MainActivity2.this);
@@ -119,8 +119,12 @@ public class MainActivity2 extends AppCompatActivity {
                                 //String status = jsonObjectWeather.getString("description");
                                 String icon = jsonObjectWeather.getString("icon");
 
+
+
+
                                 arrWeather.add(new Weather(Day, icon, TempMax, TempMin));
                             }
+
                             // nếu có dữ liệu mới thì ta update lại Ađapter
                             customAdapter.notifyDataSetChanged();
                         } catch (JSONException e) {
