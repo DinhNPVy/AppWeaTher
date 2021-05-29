@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         btnchange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // lấy dữ liệu từ từ edit chuyển hình qua màn hình thứ 2, lấy dữ liệu cho 7 ngày kế tiếp
+                // lấy dữ liệu từ từ edit chuyển hình qua màn hình thứ 2, lấy dữ liệu cho 5 ngày kế tiếp
                 String City = edit_search.getText().toString();
                 // chuyển sang màn hình thứ 2
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);

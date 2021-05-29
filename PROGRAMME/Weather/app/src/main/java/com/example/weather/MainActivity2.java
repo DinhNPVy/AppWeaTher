@@ -41,17 +41,17 @@ public class MainActivity2 extends AppCompatActivity {
         Intent intent = getIntent();
         String City = intent.getStringExtra("name");
         Log.d("ket qua", "Du lieu truyen qua :" + City);
-        //Get7DayData();
+        //Get5DayData();
         // kh có giá trị thì mặc định
         if(City.equals(""))
         {
             nameCity = "Saigon";
-            Get7DaysData(nameCity);
+            Get5DaysData(nameCity);
         }
         else
         {
             nameCity = City;
-            Get7DaysData(nameCity);
+            Get5DaysData(nameCity);
         }
         img_back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,7 +71,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         listView.setAdapter(customAdapter);
     }
-    private void Get7DaysData(String data)
+    private void Get5DaysData(String data)
     { // chưa fix
         String url = "https://api.openweathermap.org/data/2.5/forecast?q="+data+"&units=metric&appid=09522e7c1b90d4c879371c025ae95996";
         // đọc dữ liệu thư viện Volley
@@ -98,13 +98,18 @@ public class MainActivity2 extends AppCompatActivity {
                                     //*** thứ trong tuần ***//
 
                                 // chuyển kiểu dữ liệu từ  string -> long
-                                long l = Long.valueOf(thu);
+
+                                    long l = Long.valueOf(thu);
+
+
+
                                 // chuyển s -> ms
                                 Date date = new Date(l*1000L);
+
+
                                 // chèn giá trị format
                                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEEE");
                                 String Day = simpleDateFormat.format(date);
-
                                     //*** temp ***//
                                 JSONObject jsonObjectTemp = jsonObjectList.getJSONObject("main");
                                 String tempMax = jsonObjectTemp.getString("temp_max");
@@ -118,9 +123,6 @@ public class MainActivity2 extends AppCompatActivity {
                                 JSONObject jsonObjectWeather = jsonArrayWeather.getJSONObject(0); // có duy nhất 1 cặp thẻ
                                 //String status = jsonObjectWeather.getString("description");
                                 String icon = jsonObjectWeather.getString("icon");
-
-
-
 
                                 arrWeather.add(new Weather(Day, icon, TempMax, TempMin));
                             }
@@ -140,4 +142,5 @@ public class MainActivity2 extends AppCompatActivity {
                 });
         requestQueue.add(stringRequest);
     }
+
 }

@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e806f65e-0c34-434b-8633-4cda529f36a3" name="Default Changelist" comment="" />
+    <list default="true" id="e806f65e-0c34-434b-8633-4cda529f36a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/PROGRAMME/Weather/app/src/main/java/com/example/weather/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROGRAMME/Weather/app/src/main/java/com/example/weather/MainActivity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROGRAMME/Weather/app/src/main/res/layout/row_listview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PROGRAMME/Weather/app/src/main/res/layout/row_listview.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1sTM41GvJiPxeuz16K2S469BJys" />
   <component name="ProjectViewState">
@@ -32,9 +38,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1620891965399">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1621929701138">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1620891965399" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1621929701138" />
   </component>
 </project>
